@@ -1,6 +1,7 @@
 FROM ubuntu:22.04
 
 LABEL org.opencontainers.image.authors="MCMattia"
+LABEL org.opencontainers.image.source=https://github.com/MCMattia/stm32cubeide-docker
 
 ENV STM32CUBEIDE_VERSION=1.16.0
 
