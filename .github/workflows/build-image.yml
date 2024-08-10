@@ -18,7 +18,7 @@ jobs:
         with:
           deno-version: v1.x
 
-      - name: run fetchIstannler.ts
+      - name: run fetchInstaller.ts
         run: deno run --allow-net --allow-write fetchInstaller.ts
 
       - name: Login to Docker Hub
