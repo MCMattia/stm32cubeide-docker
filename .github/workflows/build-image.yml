@@ -66,4 +66,6 @@ jobs:
           push-to-registry: true
 
       - name: Verify
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: gh attestation verify oci://docker.io/mcmattia/stm32cubeide-docker:1.0 -R mcmattia/stm32cubeide-docker
