@@ -64,3 +64,6 @@ jobs:
           subject-name: docker.io/mcmattia/stm32cubeide-docker
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
+
+      - name: Verify
+        run: gh attestation verify oci://docker.io/mcmattia/stm32cubeide-docker:1.0 -R mcmattia/stm32cubeide-docker
