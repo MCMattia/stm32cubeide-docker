@@ -1,6 +1,18 @@
 # Verifiable STM32CubeIde docker image
 
-Docker image build by github actions with verifiable steps.
+STM32CubeIde docker image built by github actions with verifiable steps.
+
+The [build-image](https://github.com/MCMattia/stm32cubeide-docker/actions/workflows/build-image.yml) github action downloads the STM32CubeIde installer from the official website and creates the [mcmattia/stm32cubeide-docker](https://hub.docker.com/r/mcmattia/stm32cubeide-docker) docker image.
+
+This project was created to ensure secure and verifiable file copying into the Docker container, addressing concerns about unverified file copying by independent developers.
+
+The resulting Docker image can be utilized to build STM32CubeIde projects in CI/CD environments.
+
+## Image versions
+
+| Image version | STM32CubeIde version |
+| ------------- | -------------------- |
+| 1.0           | 1.16.0               |
 
 ## Usage
 
@@ -28,9 +40,3 @@ Execute STM32CubeIde build command:
 stm32cubeide --launcher.suppressErrors -nosplash -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data buildWorkspace -import STM32Project -build STM32Project/Debug
 
 ```
-
-## Image versions
-
-| Image version | STM32CubeIde version |
-| ------------- | -------------------- |
-| 1.0           | 1.16.0               |

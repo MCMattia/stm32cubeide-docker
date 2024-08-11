@@ -18,7 +18,7 @@ async function download(url: string, filename: string) {
     await response.body.pipeTo(file.writable);
   }
 
-  console.log("Download completed!");
+  console.log("Download completed");
 }
 
 download(url, filename).catch((error) => {
