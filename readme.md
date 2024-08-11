@@ -8,6 +8,8 @@ This project was created to ensure secure and verifiable file copying into the D
 
 The resulting Docker image can be utilized to build STM32CubeIde projects in CI/CD environments.
 
+The STM32CubeIde software available in the docker container is licensed under the [ST software license agreement](https://st.com/resource/en/license/SLA0047_TrueSTUDIO.pdf)
+
 ## Image versions
 
 | Image version | STM32CubeIde version |
