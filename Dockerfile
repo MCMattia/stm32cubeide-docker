@@ -12,7 +12,7 @@ RUN apt-get -y update
 RUN apt-get -y install
 RUN apt-get -y install zip
 
-COPY en.st-stm32cubeide_1.16.0_21983_20240628_1741_amd64.deb_bundle.sh.zip /tmp/stm32cubeide-installer.sh.zip
+COPY en.st-stm32cubeide_1.16.1_22882_20240916_0822_amd64.deb_bundle.sh.zip /tmp/stm32cubeide-installer.sh.zip
 RUN unzip -p /tmp/stm32cubeide-installer.sh.zip > /tmp/stm32cubeide-installer.sh
 RUN rm /tmp/stm32cubeide-installer.sh.zip
 
