@@ -33,7 +33,7 @@ docker pull mcmattia/stm32cubeide-docker:1.0
 ### Run the image
 
 ```
-docker run -i -t -v .:/workspace mcmattia/stm32cubeide:1.0
+docker run -i -t -v .:/workspace mcmattia/stm32cubeide-docker:1.0
 ```
 
 where:
@@ -72,7 +72,7 @@ docker pull mcmattia/stm32cubeide-docker:1.0
 ### Run the image
 
 ```
-docker run -i -t -v .:/workspace mcmattia/stm32cubeide:1.0
+docker run -i -t -v .:/workspace mcmattia/stm32cubeide-docker:1.0
 ```
 
 ### Execute the STM32CubeIde build command
