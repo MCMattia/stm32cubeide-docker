@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:latest
 
 LABEL org.opencontainers.image.authors="MCMattia"
 LABEL org.opencontainers.image.source=https://github.com/MCMattia/stm32cubeide-docker
