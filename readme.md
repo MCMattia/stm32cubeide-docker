@@ -14,7 +14,7 @@ The STM32CubeIde software available in the docker container is licensed under th
 
 | Image version | STM32CubeIde version |
 | ------------- | -------------------- |
-| 1.0           | 1.16.0               |
+| 1.0           | 1.16.1               |
 
 ## Usage
 
