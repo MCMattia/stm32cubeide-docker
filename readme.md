@@ -14,6 +14,7 @@ The STM32CubeIde software available in the docker container is licensed under th
 
 | Image version | STM32CubeIde version |
 | ------------- | -------------------- |
+| 1.1           | 1.17.0               |
 | 1.0           | 1.16.1               |
 
 ## Usage
@@ -21,19 +22,19 @@ The STM32CubeIde software available in the docker container is licensed under th
 ### Verify the image with github cli (optional)
 
 ```
-gh attestation verify oci://docker.io/mcmattia/stm32cubeide-docker:1.0 -R mcmattia/stm32cubeide-docker
+gh attestation verify oci://docker.io/mcmattia/stm32cubeide-docker:1.1 -R mcmattia/stm32cubeide-docker
 ```
 
 ### Pull the image from [docker hub](https://hub.docker.com/r/mcmattia/stm32cubeide-docker)
 
 ```
-docker pull mcmattia/stm32cubeide-docker:1.0
+docker pull mcmattia/stm32cubeide-docker:1.1
 ```
 
 ### Run the image
 
 ```
-docker run -i -t -v .:/workspace mcmattia/stm32cubeide-docker:1.0
+docker run -i -t -v .:/workspace mcmattia/stm32cubeide-docker:1.1
 ```
 
 where:
@@ -66,13 +67,13 @@ cd STM32-VSCode-CMake-streamlined
 ### Pull the image from [docker hub](https://hub.docker.com/r/mcmattia/stm32cubeide-docker)
 
 ```
-docker pull mcmattia/stm32cubeide-docker:1.0
+docker pull mcmattia/stm32cubeide-docker:1.1
 ```
 
 ### Run the image
 
 ```
-docker run -i -t -v .:/workspace mcmattia/stm32cubeide-docker:1.0
+docker run -i -t -v .:/workspace mcmattia/stm32cubeide-docker:1.1
 ```
 
 ### Execute the STM32CubeIde build command
